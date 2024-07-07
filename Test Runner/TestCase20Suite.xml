@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="Test Case 20 Suite">
+    <listeners>
+        <listener class-name="Listeners.ITestResultListenerClass"/>
+        <listener class-name="Listeners.IInvokedMethodListenerClass"/>
+    </listeners>
+    <test name="Test Case 20">
+        <classes>
+            <class name="Tests.TC20_SearchProductsandVerifyCartAfterLoginTest"/>
+        </classes>
+    </test>
+</suite>

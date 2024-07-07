@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="Test Case 8 Suite">
+    <listeners>
+        <listener class-name="Listeners.ITestResultListenerClass"/>
+        <listener class-name="Listeners.IInvokedMethodListenerClass"/>
+    </listeners>
+    <test name="Test Case 2">
+        <classes>
+            <class name="Tests.TC08_ContactUsTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="Test Case 17 Suite">
+    <listeners>
+        <listener class-name="Listeners.ITestResultListenerClass"/>
+        <listener class-name="Listeners.IInvokedMethodListenerClass"/>
+    </listeners>
+    <test name="Test Case 17">
+        <classes>
+            <class name="Tests.TC17_PlaceOrderLoginBeforeCheckOutTest"/>
+        </classes>
+    </test>
+</suite>
